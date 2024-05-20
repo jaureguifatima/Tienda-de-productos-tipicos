@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda de Productos Típicos</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+        main {
+            padding: 20px;
+            text-align: center;
+        }
+        .producto {
+            display: inline-block;
+            margin: 10px;
+            padding: 10px;
+            border: 1px solid #ddd;
+            background-color: #fff;
+            width: 200px;
+        }
+        .producto img {
+            width: 100%;
+            height: auto;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>𝚃𝚒𝚎𝚗𝚍𝚊 𝚍𝚎 𝙿𝚛𝚘𝚍𝚞𝚌𝚝𝚘𝚜 𝚃í𝚙𝚒𝚌𝚘𝚜 𝚍𝚎 𝙲𝚘𝚖𝚘𝚗𝚏𝚘𝚛𝚝</h1>
+    </header>
+    <main>
+        <h2>𝙉𝙪𝙚𝙨𝙩𝙧𝙤𝙨 𝙋𝙧𝙤𝙙𝙪𝙘𝙩𝙤𝙨</h2>
+        <div class="producto">
+            <img src="Molcajete.jpg" alt="Molcajete de Piedra">
+            <h3>Molcajete de Piedra</h3>
+            <p>Precio: 350 MXN</p>
+            <button onclick="agregarAlCarrito()">Agregar al carrito</button>
+        </div>
+        <div class="producto">
+            <img src="Textil.jpg" alt="Textil Artesanal">
+            <h3>Textil Artesanal</h3>
+            <p>Precio: 500 MXN</p>
+            <button onclick="agregarAlCarrito()">Agregar al carrito</button>
+        </div>
+        <div class="producto">
+            <img src="ceramica.jpg" alt="Cerámica Decorativa">
+            <h3>Cerámica Decorativa</h3>
+            <p>Precio: 400 MXN</p>
+            <button onclick="agregarAlCarrito()">Agregar al carrito</button>
+        </div>
+        <div class="producto">
+            <img src="panes.jpg" alt="Dulces tradicionales">
+            <h3>Dulces tradicionales</h3>
+            <p>Precio: 400 MXN</p>
+            <button onclick="agregarAlCarrito()">Agregar al carrito</button>
+        </div>
+        <div class="producto">
+            <img src="cestos.jpg" alt="cestos de palma">
+            <h3>cestos de palma</h3>
+            <p>Precio: 400 MXN</p>
+            <button onclick="agregarAlCarrito()">Agregar al carrito</button>
+        </div>
+        <div class="producto">
+            <img src="joyeria.jpg" alt="Joyería Artesanal">
+            <h3>Joyería Artesanal</h3>
+            <p>Precio: 400 MXN</p>
+            <button onclick="agregarAlCarrito()">Agregar al carrito</button>
+        </div>
+        <div class="producto">
+            <img src="barro.jpg" alt="Figuras de Barro">
+            <h3>Figuras de Barro</h3>
+            <p>Precio: 400 MXN</p>
+            <button onclick="agregarAlCarrito()">Agregar al carrito</button>
+        </div>
+        <div class="producto">
+            <img src="manualidades.jpg" alt="Muñecas Artesanales">
+            <h3>Muñecas Artesanales</h3>
+            <p>Precio: 400 MXN</p>
+            <button onclick="agregarAlCarrito()">Agregar al carrito</button>
+        </div>
+        <div class="producto">
+            <img src="tortillas.jpg" alt="Tortillas">
+            <h3>Tortillas</h3>
+            <p>Precio: 400 MXN</p>
+            <button onclick="agregarAlCarrito()">Agregar al carrito</button>
+        </div>
+        <div class="producto">
+            <img src="verduras.jpg" alt="Verduras y Frutasa">
+            <h3>Verduras y Frutasa</h3>
+            <p>Precio: 400 MXN</p>
+            <button onclick="agregarAlCarrito()">Agregar al carrito</button>
+        </div>
+    </main>
+    
+    <script>
+        function agregarAlCarrito() {
+            // Aquí puedes añadir la lógica para agregar el producto al carrito
+            alert("Producto agregado al carrito");
+        }
+    </script>
+</body>
+</html>
